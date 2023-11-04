@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+nav{
+    background-color:rgb(233,232,230);
+}
+main{
+    background-image:url(./images/hero-bg.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+}
+.content{
+    padding-top: 100px !important;
+}
+.N{
+    font-size: 40px;
+}
+.P{
+    font-size: 22px;
+}
+.footer{
+    background-color: rgb(233,232,230);
+}
+/* ABOUT US */
+.about-us{
+    font-size: 16px;
+}
+.john{
+    height: 20vh;
+    width: 20vh;
+}
+/* swiper js */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  /* map */
+ .map{
+    height: 40vh;
+    width: 190vh;
+ }
+ /*icon  */
+ .icon{
+    font-size: 20px;
+    color: #34b7a7;
+    width: 44px;
+    height: 44px;
+    background: #effbf9 !important;
+     display: flex; 
+     justify-content: center;
+    align-items: center;  
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
